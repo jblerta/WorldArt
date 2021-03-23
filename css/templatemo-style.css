@@ -1,0 +1,452 @@
+/**
+
+Mini Profile Template
+
+https://templatemo.com/tm-530-mini-profile
+
+
+Color Codes
+------------
+brown: #986665;
+green: #98cb00;
+orange: #cc6733;
+blue: #3398cc;
+dark-gray: #676767;
+light-gray: #999999;
+text-gray: #6b6b6b;
+
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6b6b6b;
+  overflow-x: hidden;
+}
+
+.nav-bar li{
+  margin-top: 3px;
+  color: #be838e;
+  padding: 5px 10px;
+  background:transparent;
+  border:1px solid #be838e;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+
+  margin-right: 30px;
+}
+
+.nav-bar li:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.nav-bar li a{
+  color: #be838e;
+}
+
+.bt-animation{
+  margin-top: 10px;
+  font-size: 15px;
+  text-decoration: none;
+   border:1px solid #be838e;
+  border-radius: 10px;
+  outline: none;
+  padding: 3px 5px;
+}
+
+
+.container-fluid {
+  max-width: 1200px;
+}
+
+.tm-bg-black-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tm-bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.5);
+ 
+}
+.tm-bg-rose-transparent{
+   background-color: rgba(190, 131, 142,0.5);
+}
+
+.tm-bg-green {
+  background-color: #98cb00;
+}
+
+.tm-bg-orange {
+  background-color: #cc6733;
+}
+
+.tm-bg-blue {
+  background-color: #3398cc;
+}
+
+.tm-bg-dark-gray {
+  background-color: #676767;
+}
+
+/*
+  Welcome section
+*/
+#tmWelcome {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.tm-brand-container-outer {
+  margin-top: -400px;
+}
+
+.tm-brand-container-inner {
+  max-width: 580px;
+  width: 100%;
+}
+
+.tm-brand-container {
+  padding: 75px 110px;
+}
+
+.tm-brand-name {
+  font-size: 3.8rem;
+}
+
+.tm-brand-description {
+  font-size: 1.4rem;
+}
+
+
+.parallax-window {
+ min-height: 1120px;
+  background: transparent;
+}
+.background{
+  background-color: #be838e;
+}
+
+#tmContact {
+  min-height: 400px;
+}
+
+.tm-welcome-container {
+  min-height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.tm-welcome-title {
+  margin-bottom: 40px;
+}
+
+.tm-welcome-left {
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.tm-welcome-left-col {
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.tm-welcome-right {
+  color: white;
+  background-color: #be838e;
+  padding: 80px 43px 70px;
+  height: 100%;
+}
+
+.tm-welcome-icon {
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+}
+
+/*
+  Portfolio section
+*/
+
+.home-gallery {
+  padding-top: 80px;
+}
+
+.home-gallery .row{
+margin-bottom: 30px;
+
+
+}
+.home-gallery a{
+  color: #000;
+  text-align: center;
+}
+
+.tm-portfolio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.tm-portfolio-name {
+  width: 330px;
+  height: 220px;
+  font-size: 2rem;
+  padding: 70px 95px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.tm-portfolio-description {
+  width: calc(100% - 330px);
+  padding: 20px 45px;
+}
+
+.tm-portfolio-description h3 {
+  margin-bottom: 20px;
+}
+
+.tm-text-green {
+  color: #98cb00;
+}
+
+.tm-text-orange {
+  color: #cc6733;
+}
+
+.tm-text-blue {
+  color: #3398cc;
+}
+
+.tm-text-dark-gray {
+  color: #676767;
+}
+
+.tm-title-small {
+  font-size: 1.3rem;
+}
+
+p {
+  line-height: 1.8;
+}
+
+/*
+  Contact section
+*/
+
+#tmContact {
+  padding-top: 100px;
+  min-height: 300px;
+}
+
+.tm-contact-item {
+  width: 33.3334%;
+  max-width: 345px;
+  height: auto;
+  min-height: 420px;
+  margin-right: 35px;
+  background-color: white;
+  padding: 54px 34px 44px;
+}
+
+.tm-contact-item:last-child {
+  margin-right: 0;
+}
+
+
+
+.tm-contact-item-icon {
+  margin-bottom: 45px;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tmContactForm {
+   width: 100%;
+  max-width: 880px;
+  padding: 45px 45px 30px;
+  margin-bottom: 95px;
+
+}
+#tmContact .links{
+  text-align: center;
+  color: #000;
+  margin-left: 20px;
+
+} 
+
+#tmContact .links i{
+  margin-left: 50px;
+  color: #000;
+
+
+} 
+.form-group {
+  max-width: 355px;
+}
+
+.form-control {
+  background: transparent;
+  border-color: #999999;
+  padding: 15px 10px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+
+.tm-copyright-text {
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.tm-link {
+  color: #676767;
+}
+
+.bubbles img{
+  width: 50px;
+  margin-right: 2px;
+  animation: bubble 4s linear infinite;
+}
+.bubbles{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+
+}
+
+@keyframes bubble{
+  0%{
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50%{
+  
+    opacity: 1;
+  }
+  70%{
+
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(-190vh);
+    opacity: -60;
+  }
+
+}
+.bubbles img:nth-child(1){
+  animation-delay: 2s;
+}
+.bubbles img:nth-child(2){
+  animation-delay: 1s;
+}
+.bubbles img:nth-child(3){
+  animation-delay: 3s;
+}
+.bubbles img:nth-child(4){
+  animation-delay: 4.5s;
+}
+.bubbles img:nth-child(5){
+  animation-delay: 1.5s;
+}
+.bubbles img:nth-child(6){
+  animation-delay: 5s;
+}
+.bubbles img:nth-child(7){
+  animation-delay: 7s;
+}
+.bubbles img:nth-child(8){
+  animation-delay: 2.5s;
+}
+.bubbles img:nth-child(9){
+  animation-delay: 8s;
+}
+.bubbles img:nth-child(10){
+  animation-delay: 2.2s;
+}
+.bubbles img:nth-child(11){
+  animation-delay: 6s;
+}
+@media (max-width: 1054px) {
+  .tm-contact-item-icon {
+    margin-bottom: 15px;
+  }
+}
+
+
+  .tm-contact-item {
+    width: auto;
+    max-width: 680px;
+    min-height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .tm-contact-item:last-child {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  #tmContactForm {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 730px) {
+  .tm-portfolio-item {
+    flex-direction: column;
+  }
+
+  .tm-portfolio-name {
+    justify-content: center;
+  }
+
+  .tm-portfolio-name,
+  .tm-portfolio-description {
+    width: 100%;
+  }
+
+  .tm-portfolio-description {
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 572px) {
+  .tm-brand-container {
+    padding: 45px;
+  }
+}
+
+@media (max-width: 443px) {
+  .tm-brand-name {
+    font-size: 3rem;
+  }
+
+  .tm-brand-container {
+    padding: 25px;
+  }
+}
