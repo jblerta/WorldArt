@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/gallery.css"/>
+	    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+
+
+<!-- function to open window with the id of the drawing-->
+  <script type="text/javascript">
+    function getData(name,src) {
+      console.log(name,src);
+
+
+      my_window = window.open("ID", "Window", "status=1,width=315,height=500");
+
+      my_window.document.write('<h3><em>Drawing ID:</em><strong></br>',name, '</strong></h3> <img style="width:300px;" src="',src,'"> <p style="color:#808080">Please close the window(X) after finishing</p>');
+    }
+
+
+  </script>
+
+</head>
+
+
+
+<body>
+<!--header section-->
+    <section class="nav-bar">
+    <ul class="nav justify-content-end">
+  <li class="nav-item" style="border: none;">
+    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+  </li>
+  <li class="nav-item" style="border: none;">
+    <a class="nav-link" href="gallery.html">Gallery</a>
+  </li>
+  <li class="nav-item" style="border: none;">
+    <a class="nav-link" href="about.html">About</a>
+  </li>
+</ul>
+</section>
+
+
+<!--section with css animation-->
+<div class="container-flexd">
+  <div class="jumbotron tm-bg-rose-transparent" >
+    <h1><span class="bi bi-palette-fill"></span> My Drawing Gallery</h1>
+    <p>I shut my eyes in order to see</p>
+   <div class="shine">
+    <img src="img/shine2.png">
+    <img src="img/shine.png">
+   <img src="img/shine2.png">
+   <img src="img/shine.png">
+   <img src="img/shine2.png">
+   <img src="img/shine2.png">
+   <img src="img/shine.png">
+   <img src="img/shine2.png">
+   <img src="img/shine.png">
+   <img src="img/shine2.png">
+   <img src="img/shine2.png">
+   <img src="img/shine.png">
+   <img src="img/shine2.png">
+   <img src="img/shine.png">
+   <img src="img/shine2.png">
+   <img src="img/shine2.png">
+ </div>
+  </div>
+  </div>
+
+<div style="margin-left: 20px;">
+<h3>Interested in buying one?</h3>
+<p>Please <a href="#tmContact" style="color: #be838e;">go to</a> the end of the page for more information</p>
+</div>
+
+<!--gallery section
+    Some images are from img folder in the project and some are image links-->
+	<div class="container-flexd">
+		<div class="row">
+			<div class="column" >
+				<img name="img111" src="img/163642263_827526171455955_3095342915515205485_n.jpg" onclick="getData(name,src)">
+				<img name="img222" src="img/163664290_746102072760703_3211866907967069653_n.jpg" onclick="getData(name,src)">
+				<img  name="img333" src="img/noHead.jpg"  onclick="getData(name,src)">
+				<img name="img444" src="img/blueShortF.jpg" onclick="getData(name,src)">
+				<img name="img555" src="img/blueF.JPG" onclick="getData(name,src)">
+			</div>
+			<div class="column">
+				<img name="img666" src="img/saureF.jpg" onclick="getData(name,src)">
+				<img name="img777" src="img/IMG_321.jpg" onclick="getData(name,src)">
+				<img name="img888" src="img/IMG_5372.jpg" onclick="getData(name,src)">
+				<img name="img999" src="img/IMG_222.jpg" onclick="getData(name,src)">
+				<img name="img122" src="img/manMaske.jpg" onclick="getData(name,src)">
+			</div>
+			<div class="column"  >
+				<img name="img133"src="img/IMG_5437.jpg" onclick="getData(name,src)">
+				<img name="img144" src="img/maske.jpg" onclick="getData(name,src)">
+				<img name ="img155" src="img/163860056_1086206351865314_8864390326060105441_n.jpg" onclick="getData(name,src)">
+				<img name="img166" src="img/vase.jpg" onclick="getData(name,src)">
+				<img name="img177" src="img/saureF.jpg" onclick="getData(name,src)">
+			</div>
+		</div>
+	</div>
+
+<!-- show more toggle-->
+<div class="container">
+   <p>
+     <a class="btn btn-primary"  data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          show more
+    </a>
+  </p>
+</div>
+    <div class="collapse" id="collapseExample" style="margin-bottom: 10px;">
+      <div class="container-flexd">
+    <div class="row">
+      <div class="column">
+        <img name="img188" src="img/IMG_5389.jpg" onclick="getData(name,src)">
+        <img name="img199" src="img/IMG_E5420.jpg" onclick="getData(name,src)">
+        <img name="img211" src="img/rotF.jpg" onclick="getData(name,src)">
+        <img name="img222" src="img/IMG_444.jpg" onclick="getData(name,src)">
+        <img name="img233" src="img/underwater.jpg" onclick="getData(name,src)">
+      </div>
+      <div class="column">
+        <img name="img244" src="img/IMG_5400.jpg" onclick="getData(name,src)">
+        <img name="img255" src="img/traurigF.jpg" onclick="getData(name,src)">
+        <img name="img266" src="img/IMG_222.jpg" onclick="getData(name,src)">
+        <img name="img277" src="img/IMG_5372.jpg" onclick="getData(name,src)">
+        <img name="img288" src="img/IMG_111.jpg" onclick="getData(name,src)">
+      </div>
+    <div class="column">
+        <img name="img299" src="img/blueShortF.jpg">
+        <img name="img311" src="img/IMG_E5420.JPG" onclick="getData(name,src)">
+        <img name="img322" src="img/IMG_321.jpg" onclick="getData(name,src)">
+        <img name="img333" src="img/IMG_123.jpg" onclick="getData(name,src)">
+        <img name="img244" src="img/manMaske.jpg" onclick="getData(name,src)">
+      </div>
+    </div>
+         
+    </div>
+  </div>
+
+<!--footer section-->
+
+    <div id="tmContact" class="parallax-window" data-parallax="scroll" style="
+   background-color: rgba(190, 131, 142,0.5); margin-top: 150px;" >
+     
+
+
+        <div class="row" >
+          <div class="col-3">
+          <h2 style="color: #000;"><strong>Want to buy?</strong></h2>
+        	<p>If you are interested in one of the drawing then contact me by filling the form.
+            <ul><li style="color: #000;">enter you name and email</li>
+                <li style="color: #000;">in the message please write the id of the drawing that you want to buy</li>
+                <ul><li style="color:red;"> How to get the id?</li></ul>
+                <p style="color:red;">Click on the drawing which you want to buy, a window will open where the id will show.</p>
+                <li style="color: #000;">please also in the message write the address where the drawing should be shipped</li>
+
+            </ul>
+          </div>
+
+<!-- send email form-->
+          <div class="col-6">
+            <form
+            action="mailto:youemail@yourdmainhere.com"
+              action="index.html"
+              method="POST"
+              id="tmContactForm"
+              class="tm-bg-white-transparent">
+              <!--<div class="form-group">
+                <input
+                  type="text"
+                  id="contact_name"
+                  name="contact_name"
+                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="contact_email"
+                  name="contact_email"
+                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  rows="4"
+                  id="contact_message"
+                  name="contact_message"
+                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                  placeholder="Message"
+                  required
+                ></textarea>
+          
+              </div>-->
+              <div class="text-center">
+                <button
+                  type="submit"
+                  class="btn tm-btn-submit rounded-0 text-black"
+                  value="submit"
+                  name="submit"
+                >
+                  Send email
+                </button>
+                <p style="font-size: 12px;"><u>When you click Send email the browser will open a default mail client to send the email.
+                </u><P>
+              </div>
+            </form>
+          </div>
+            <div class="col-3">
+          <h2 style="color: #000;"><strong>Drawing request?</strong></h2>
+          <p>I also accept drawing request so feel free to write an email or contact me on any social media account below.</p>
+          <p>I will contact you shortly</p>
+          </div>
+        </div>
+
+
+<!--social media links-->
+            <div class="links">
+             <a href="https://www.facebook.com/" style="color: #000;"> <i class="bi bi-facebook"> Facebook</i></a>
+              <a href="https://www.instagram.com/__artskj/" style="color: #000;"><i class="bi bi-instagram"> Instagram</i></a>
+             <a href="https://twitter.com/" style="color: #000;"> <i class="bi bi-twitter"> Twiter</i></a>
+             <a href="https://mail.google.com/" style="color: #000;"><i class="bi bi-envelope-fill"> Email</i></a>
+            </div>
+
+        <!-- row -->
+        <div class="row">
+          <footer class="col-12">
+            <p class="text-center tm-copyright-text">
+            Copyright 2021 Mini Art World 
+            
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
